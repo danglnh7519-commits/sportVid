@@ -1,0 +1,44 @@
+{
+  "squat": {
+    "benefitTitle":"ĐÙI & MÔNG KHỎE HƠN",
+    "benefit":"Squat rèn sức mạnh đùi và mông, đồng thời yêu cầu thân người giữ ổn định. Tập đều với độ khó phù hợp giúp xây nền tảng cho động tác đứng lên và ngồi xuống.",
+    "prepare":"Đứng vững, bàn chân bám sàn. Siết nhẹ bụng và giữ gối theo hướng mũi chân.",
+    "actions":[{"text":"Hạ xuống chậm, hít vào.","label":"HẠ XUỐNG • HÍT VÀO","holdSeconds":3},{"text":"Đẩy sàn, đứng lên, thở ra.","label":"ĐỨNG LÊN • THỞ RA","holdSeconds":3}],
+    "finish":"Rất tốt! Dừng khi mất tư thế. Chất lượng từng lần tập quan trọng hơn số lượng.",
+    "sources":["https://www.acefitness.org/resources/everyone/exercise-library/135/bodyweight-squat/"]
+  },
+  "curl": {
+    "benefitTitle":"RÈN SỨC MẠNH TAY TRƯỚC",
+    "benefit":"Cuốn tạ tập trung vào các cơ gập khuỷu, đặc biệt là cơ nhị đầu cánh tay. Tăng độ khó phù hợp theo thời gian có thể hỗ trợ phát triển sức mạnh và cơ tay.",
+    "prepare":"Chọn tạ vừa sức. Đứng chắc, giữ khuỷu gần thân và không đung đưa lưng.",
+    "actions":[{"text":"Cuốn tạ một bên, thở ra.","label":"CUỐN TẠ • THỞ RA","holdSeconds":3},{"text":"Hạ tạ chậm, hít vào.","label":"HẠ CHẬM • HÍT VÀO","holdSeconds":3},{"text":"Đổi bên, giữ thân người vững.","label":"ĐỔI BÊN • KHÔNG LẤY ĐÀ","holdSeconds":2}],
+    "finish":"Tốt lắm! Chọn mức tạ bạn kiểm soát được, rồi tiến bộ từng chút.",
+    "sources":["https://www.nasm.org/resource-center/exercise-library/barbell-bicep-curl"],
+    "sourceNote":"Nguyên lý cơ gập khuỷu tham khảo từ curl với tạ đòn; hiệu lệnh được soạn cho biến thể tạ đơn luân phiên."
+  },
+  "bird-dog": {
+    "benefitTitle":"CORE VỮNG • PHỐI HỢP TỐT",
+    "benefit":"Bird dog rèn khả năng giữ thân người ổn định khi tay và chân di chuyển. Bài tập giúp luyện phối hợp hai bên và khả năng chống xoay của vùng core.",
+    "prepare":"Chống tay dưới vai, gối dưới hông. Giữ lưng tự nhiên và siết nhẹ bụng.",
+    "actions":[{"text":"Duỗi tay và chân đối diện, thở đều.","label":"DUỖI ĐỐI DIỆN • THỞ ĐỀU","holdSeconds":4},{"text":"Thu về chậm, giữ hông cân bằng.","label":"THU VỀ • GIỮ HÔNG CÂN","holdSeconds":3},{"text":"Đổi bên trong tầm kiểm soát.","label":"ĐỔI BÊN • KIỂM SOÁT","holdSeconds":3}],
+    "finish":"Rất tốt! Giảm tầm duỗi nếu lưng võng. Kiểm soát chắc rồi mới tăng độ khó.",
+    "sources":["https://www.nasm.org/resource-center/exercise-library/bird-dog"]
+  },
+  "plank": {
+    "benefitTitle":"SỨC BỀN CƠ BỤNG & CORE",
+    "benefit":"Plank rèn sức bền và khả năng giữ ổn định của vùng core. Mục tiêu là chống võng lưng khi giữ thân người, không phải giảm mỡ bụng tại chỗ.",
+    "prepare":"Đặt khuỷu dưới vai. Siết nhẹ bụng và mông; có thể chống gối để giảm độ khó.",
+    "actions":[{"text":"Giữ thân người vững. Hít vào nhẹ.","label":"GIỮ VỮNG • HÍT NHẸ","holdSeconds":4},{"text":"Thở ra chậm, không nín thở.","label":"THỞ RA • KHÔNG NÍN THỞ","holdSeconds":4},{"text":"Giữ hông ổn định, thêm một nhịp nữa.","label":"GIỮ HÔNG • THỞ ĐỀU","holdSeconds":4}],
+    "finish":"Hạ gối xuống, nghỉ nào. Kết thúc sớm hơn nếu bạn không giữ được tư thế.",
+    "sources":["https://www.nasm.org/resource-center/exercise-library/plank"]
+  },
+  "row": {
+    "benefitTitle":"RÈN CƠ LƯNG & SỨC KÉO",
+    "benefit":"Kéo tạ tựa ngực tập trung vào cơ lưng và có tay trước hỗ trợ. Điểm tựa giúp hạn chế dùng đà từ thân người khi luyện động tác kéo có kiểm soát.",
+    "prepare":"Tựa ngực lên ghế chắc chắn. Giữ chân vững và cổ theo đường tự nhiên của lưng.",
+    "actions":[{"text":"Kéo khuỷu về sau, thở ra.","label":"KÉO VỀ SAU • THỞ RA","holdSeconds":3},{"text":"Hạ tạ chậm, hít vào.","label":"HẠ TẠ • HÍT VÀO","holdSeconds":3}],
+    "finish":"Rất tốt! Giữ ngực tựa ghế và không nhún vai. Chọn mức tạ vừa sức.",
+    "sources":["https://www.nasm.org/resource-center/exercise-library/seated-machine-row-close-grip"],
+    "sourceNote":"Tham khảo nguyên lý cơ tham gia động tác kéo ngang; điểm tựa và hiệu lệnh được soạn cho biến thể tạ đơn tựa ngực."
+  }
+}

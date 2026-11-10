@@ -1,0 +1,201 @@
+92 — Bodyweight Squat
+Thu thập 19/10/2026. 10 ảnh.
+
+Các ảnh là các tư thế hoặc phong cách minh họa từ các bộ có giấy phép được nguồn công bố.
+
+Một số ảnh là các khung khác nhau của cùng bộ minh họa; không phải 10 tác phẩm từ 10 tác giả độc lập. Ảnh Flow là hình AI có sẵn từ nguồn, không phải ảnh được tạo mới cho yêu cầu này. Nguồn Flow công bố CC0 nhưng có hạn chế hồ sơ nguồn gốc, chi tiết giữ nguyên ở phần NOTICE cuối file này. Các hình minh họa chưa được huấn luyện viên kiểm duyệt; cần đối chiếu trước khi dùng để hướng dẫn kỹ thuật.
+
+Nguồn và giấy phép từng ảnh:
+
+01 - Bodyweight Squat.png
+Tác giả: Bryl Lim
+Nguồn: https://bryllim.github.io/workout-guide/exercises/bodyweight-squat/
+Tệp gốc: https://bryllim.github.io/workout-guide/frames/bodyweight-squat/frame-1.svg
+Giấy phép: CC BY-SA 4.0
+Link giấy phép: https://creativecommons.org/licenses/by-sa/4.0/
+Mô tả nguồn: Bodyweight Squat
+Thay đổi: Rasterized original SVG on a 1200x1200 canvas; preserved viewBox and aspect ratio; dark background for light linework. Original static frame, no invented intermediate poses.
+
+02 - Bodyweight Squat.png
+Tác giả: Bryl Lim
+Nguồn: https://bryllim.github.io/workout-guide/exercises/bodyweight-squat/
+Tệp gốc: https://bryllim.github.io/workout-guide/frames/bodyweight-squat/frame-2.svg
+Giấy phép: CC BY-SA 4.0
+Link giấy phép: https://creativecommons.org/licenses/by-sa/4.0/
+Mô tả nguồn: Bodyweight Squat
+Thay đổi: Rasterized original SVG on a 1200x1200 canvas; preserved viewBox and aspect ratio; dark background for light linework. Original static frame, no invented intermediate poses.
+
+03 - Bodyweight Squat.png
+Tác giả: Bryl Lim
+Nguồn: https://bryllim.github.io/workout-guide/exercises/bodyweight-squat/
+Tệp gốc: https://bryllim.github.io/workout-guide/frames/bodyweight-squat/frame-3.svg
+Giấy phép: CC BY-SA 4.0
+Link giấy phép: https://creativecommons.org/licenses/by-sa/4.0/
+Mô tả nguồn: Bodyweight Squat
+Thay đổi: Rasterized original SVG on a 1200x1200 canvas; preserved viewBox and aspect ratio; dark background for light linework. Original static frame, no invented intermediate poses.
+
+04 - Bodyweight Squat.png
+Tác giả: Flow Exercise Dataset / ozansozuozgit; source declares AI-generated custom artwork
+Nguồn: https://github.com/ozansozuozgit/flow-exercise-dataset/blob/main/data/exercises.json
+Tệp gốc: https://raw.githubusercontent.com/ozansozuozgit/flow-exercise-dataset/main/assets/3119/frame-00.svg
+Giấy phép: CC0-1.0 dedication (source NOTICE retained)
+Link giấy phép: https://github.com/ozansozuozgit/flow-exercise-dataset/blob/main/ARTWORK-LICENSE
+Mô tả nguồn: potty squat
+Thay đổi: Rasterized original SVG on a 1200x1200 canvas; preserved viewBox and aspect ratio; dark background for light linework. Original static frame, no invented intermediate poses.
+Hồ sơ nguồn gốc: https://github.com/ozansozuozgit/flow-exercise-dataset/blob/main/provenance/3119.json
+
+05 - Bodyweight Squat.png
+Tác giả: Flow Exercise Dataset / ozansozuozgit; source declares AI-generated custom artwork
+Nguồn: https://github.com/ozansozuozgit/flow-exercise-dataset/blob/main/data/exercises.json
+Tệp gốc: https://raw.githubusercontent.com/ozansozuozgit/flow-exercise-dataset/main/assets/3119/frame-01.svg
+Giấy phép: CC0-1.0 dedication (source NOTICE retained)
+Link giấy phép: https://github.com/ozansozuozgit/flow-exercise-dataset/blob/main/ARTWORK-LICENSE
+Mô tả nguồn: potty squat
+Thay đổi: Rasterized original SVG on a 1200x1200 canvas; preserved viewBox and aspect ratio; dark background for light linework. Original static frame, no invented intermediate poses.
+Hồ sơ nguồn gốc: https://github.com/ozansozuozgit/flow-exercise-dataset/blob/main/provenance/3119.json
+
+06 - Bodyweight Squat.png
+Tác giả: Flow Exercise Dataset / ozansozuozgit; source declares AI-generated custom artwork
+Nguồn: https://github.com/ozansozuozgit/flow-exercise-dataset/blob/main/data/exercises.json
+Tệp gốc: https://raw.githubusercontent.com/ozansozuozgit/flow-exercise-dataset/main/assets/3119/frame-02.svg
+Giấy phép: CC0-1.0 dedication (source NOTICE retained)
+Link giấy phép: https://github.com/ozansozuozgit/flow-exercise-dataset/blob/main/ARTWORK-LICENSE
+Mô tả nguồn: potty squat
+Thay đổi: Rasterized original SVG on a 1200x1200 canvas; preserved viewBox and aspect ratio; dark background for light linework. Original static frame, no invented intermediate poses.
+Hồ sơ nguồn gốc: https://github.com/ozansozuozgit/flow-exercise-dataset/blob/main/provenance/3119.json
+
+07 - Bodyweight Squat.jpg
+Tác giả: Free Exercise DB / yuhonas; original dataset by Ollie Jennings
+Nguồn: https://github.com/yuhonas/free-exercise-db/blob/main/exercises/Bodyweight_Squat.json
+Tệp gốc: https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Bodyweight_Squat/0.jpg
+Giấy phép: Unlicense (as declared by source repository)
+Link giấy phép: https://github.com/yuhonas/free-exercise-db/blob/main/LICENSE.md
+Mô tả nguồn: Bodyweight Squat
+Thay đổi: Downloaded without image edits.
+
+08 - Bodyweight Squat.jpg
+Tác giả: Free Exercise DB / yuhonas; original dataset by Ollie Jennings
+Nguồn: https://github.com/yuhonas/free-exercise-db/blob/main/exercises/Bodyweight_Squat.json
+Tệp gốc: https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Bodyweight_Squat/1.jpg
+Giấy phép: Unlicense (as declared by source repository)
+Link giấy phép: https://github.com/yuhonas/free-exercise-db/blob/main/LICENSE.md
+Mô tả nguồn: Bodyweight Squat
+Thay đổi: Downloaded without image edits.
+
+09 - Bodyweight Squat.jpg
+Tác giả: Get Strong with Emily
+Nguồn: https://www.youtube.com/watch?v=u_7BwqHmv-g
+Tệp gốc: https://www.youtube.com/watch?v=u_7BwqHmv-g
+Giấy phép: CC BY 3.0 (YouTube Creative Commons reuse license; original upload before August 2025)
+Link giấy phép: https://creativecommons.org/licenses/by/3.0/
+Mô tả nguồn: Bodyweight Squat
+Thay đổi: Extracted one actual video/animation frame at stated timestamp; no repainting.
+Mốc video: 4 giây
+
+10 - Bodyweight Squat.jpg
+Tác giả: Get Strong with Emily
+Nguồn: https://www.youtube.com/watch?v=u_7BwqHmv-g
+Tệp gốc: https://www.youtube.com/watch?v=u_7BwqHmv-g
+Giấy phép: CC BY 3.0 (YouTube Creative Commons reuse license; original upload before August 2025)
+Link giấy phép: https://creativecommons.org/licenses/by/3.0/
+Mô tả nguồn: Bodyweight Squat
+Thay đổi: Extracted one actual video/animation frame at stated timestamp; no repainting.
+Mốc video: 18 giây
+
+
+Lưu ý sử dụng: Giữ thông tin ghi công khi dùng ảnh CC BY/CC BY-SA. Các bản chuyển PNG từ ảnh CC BY-SA được phân phối theo cùng phiên bản giấy phép của ảnh nguồn; nêu việc chuyển định dạng/nền. Public domain của chính phủ Mỹ không có nghĩa được ngụ ý người xuất hiện hay cơ quan quân đội bảo chứng. Nếu file ghi CC BY-NC, không dùng thương mại.
+
+===== Flow NOTICE =====
+# Sources, licenses, and limitations
+
+## Exercise data and instructions — MIT
+
+Exercise IDs, names, equipment, body parts, targets, supporting muscles, and
+instructions derive from [Hasan Emir Yıldırım's exercises-dataset](https://github.com/hasaneyldrm/exercises-dataset).
+Copyright (c) 2026 Hasan Emir Yıldırım. The upstream MIT copyright and permission
+notice is preserved in LICENSE. The upstream license explicitly separates
+instruction text/data from media:
+https://github.com/hasaneyldrm/exercises-dataset/blob/main/LICENSE
+
+No upstream Gym visual thumbnails, GIFs, videos, or attribution-bearing media
+are included. That upstream media has separate restrictions; downloading this
+repository does not give permission to use it.
+
+Flow adds a coarse movement-pattern classification and a custom media mapping.
+The inherited `muscleGroup` field is deliberately omitted: Flow's import often
+derived it from a secondary muscle, so it is not a reliable primary-muscle label.
+The exported `target` and `secondaryMuscles` remain upstream-derived and have
+not received a full professional review.
+
+## Custom artwork — CC0-1.0 dedication, limited evidence
+
+The 1,257 custom frame sets have historical records declaring CC0-1.0.
+Generation metadata reports OpenAI Image Gen followed by silhouette processing
+and SVG vectorization. Only 13 original prompt files remain; 1,244 are not
+retained. Each exported provenance record states its actual prompt status.
+
+An empty references list means that no reference was recorded, not that a
+complete clean-room generation trail has been verified. Retained prompt text
+records intended constraints, not proof that generation followed them. SVG
+hashes establish file integrity, not authorship, exercise correctness, or legal
+clearance. Historical acceptance/reviewer labels are not exported as independent
+certification. PNG master hashes are retained for correlation; the masters
+themselves are not part of this lightweight distribution.
+
+ARTWORK-LICENSE dedicates only rights Flow can legally dedicate. It is not a
+guarantee that every output is copyrightable, unique, or cleared of third-party
+rights. This is an openly documented preview, not a professionally certified
+exercise library. Please report concerns with the exercise ID and frame name.
+
+## Intended use and review
+
+The frames are stylized illustrations. They may omit equipment, misrepresent
+variants, or show imperfect form. Text can contain inherited inaccuracies.
+Review both text and artwork before using them for instruction. The frame
+timing is a display setting, not a prescribed exercise tempo.
+
+AI description drafts, if supplied in a separate drafts/ directory, are not
+approved coaching content. They must not silently replace the base instructions.
+
+Historical GIF previews are deliberately excluded because some were blank.
+This repository also excludes the Flow app, configuration, user data, credentials,
+and private Git history.
+
+
+===== Flow artwork CC0 =====
+SPDX-License-Identifier: CC0-1.0
+
+To the extent possible under law, Flow dedicates its rights in the custom SVG
+artwork in assets/ to the public domain under the Creative Commons CC0 1.0
+Universal Public Domain Dedication:
+https://creativecommons.org/publicdomain/zero/1.0/legalcode.en
+
+No warranty or third-party rights clearance is provided. This dedication does
+not grant rights that Flow does not hold. See NOTICE.md for provenance limits.
+
+
+===== Free Exercise DB Unlicense =====
+This is free and unencumbered software released into the public domain.
+
+Anyone is free to copy, modify, publish, use, compile, sell, or
+distribute this software, either in source code form or as a compiled
+binary, for any purpose, commercial or non-commercial, and by any
+means.
+
+In jurisdictions that recognize copyright laws, the author or authors
+of this software dedicate any and all copyright interest in the
+software to the public domain. We make this dedication for the benefit
+of the public at large and to the detriment of our heirs and
+successors. We intend this dedication to be an overt act of
+relinquishment in perpetuity of all present and future rights to this
+software under copyright law.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
+IN NO EVENT SHALL THE AUTHORS BE LIABLE FOR ANY CLAIM, DAMAGES OR
+OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE,
+ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR
+OTHER DEALINGS IN THE SOFTWARE.
+
+For more information, please refer to <https://unlicense.org>

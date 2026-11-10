@@ -1,0 +1,37 @@
+{
+  "name": "sportvid",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "studio": "remotion studio src/index.jsx",
+    "sync-drive": "node scripts/cli.mjs sync-drive",
+    "plan": "node scripts/cli.mjs plan",
+    "daily": "node scripts/cli.mjs daily",
+    "demo": "node scripts/cli.mjs demo",
+    "test": "node --test tests/*.test.mjs",
+    "web:build": "node scripts/build-dashboard.mjs",
+    "web:dev": "node scripts/dev-studio.mjs",
+    "web:deploy": "npm run web:build && node scripts/deploy-studio.mjs",
+    "cloud:render": "node scripts/cloud-render.mjs"
+  },
+  "dependencies": {
+    "@remotion/bundler": "4.0.540",
+    "@remotion/cli": "4.0.540",
+    "@remotion/gif": "4.0.540",
+    "@remotion/renderer": "4.0.540",
+    "node-edge-tts": "^1.2.12",
+    "react": "19.2.0",
+    "react-dom": "19.2.0",
+    "remotion": "4.0.540"
+  },
+  "devDependencies": {
+    "esbuild": "^0.28.1",
+    "fflate": "^0.8.2",
+    "wrangler": "^4.159.0",
+    "yaml": "^2.9.1"
+  }
+}

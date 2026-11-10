@@ -1,0 +1,13 @@
+{
+  "name": "sportvid-studio",
+  "main": "dist/server/index.js",
+  "compatibility_date": "2026-11-10",
+  "workers_dev": true,
+  "routes": [{"pattern":"sportvid.beartalk.site","custom_domain":true}],
+  "assets": {"directory":"dist/client","binding":"ASSETS","run_worker_first":true},
+  "vars": {
+    "GITHUB_OWNER":"danglnh7519-commits",
+    "GITHUB_REPO":"sportVid",
+    "GITHUB_BRANCH":"main"
+  }
+}

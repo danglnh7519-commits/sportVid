@@ -1,0 +1,12 @@
+{
+  "startDate":"2026-11-05",
+  "topics":[
+    {"id":"squat-foundation","goal":"build-body","title":"SQUAT VỮNG\nNỀN TẢNG KHỎE","hook":"Muốn cơ thể khỏe hơn? Bắt đầu từ một động tác bạn có thể làm thật chắc.","exerciseIds":["squat"],"mode":"technique","seconds":75},
+    {"id":"fat-loss-basics","goal":"giam-can","title":"GIẢM MỠ\nGIỮ SỨC MẠNH","hook":"Giảm mỡ không cần tập đến kiệt sức. Hãy xây một thói quen bạn có thể duy trì.","exerciseIds":["squat","bird-dog","plank"],"seconds":100},
+    {"id":"muscle-upper","goal":"tang-co","title":"TẬP THÂN TRÊN\nCÓ KIỂM SOÁT","hook":"Muốn tăng cơ, hãy ghi lại buổi tập và làm tốt hơn từng chút với kỹ thuật vững.","exerciseIds":["row","curl","plank"],"seconds":110},
+    {"id":"weight-gain","goal":"tang-can","title":"TĂNG CÂN\nXÂY SỨC MẠNH","hook":"Muốn tăng cân có chất lượng? Kết hợp tập kháng lực, ăn đủ và nghỉ ngơi đều đặn.","exerciseIds":["squat","row","curl"],"seconds":110},
+    {"id":"core-control","goal":"build-body","title":"CORE VỮNG\nTẬP CHẮC HƠN","hook":"Một thân người ổn định giúp bạn kiểm soát buổi tập. Bắt đầu nhẹ và thở đều.","exerciseIds":["bird-dog","plank"],"seconds":90},
+    {"id":"arms-control","goal":"tang-co","title":"TAY KHỎE\nKHÔNG CẦN VỘI","hook":"Nâng tạ nặng hơn chưa chắc đã tốt hơn. Hôm nay, tập trung vào từng lần cuốn tạ.","exerciseIds":["curl"],"mode":"technique","seconds":75},
+    {"id":"full-body","goal":"build-body","title":"XÂY CƠ THỂ\nTỪ NỀN TẢNG","hook":"Bạn không cần hoàn hảo ngay hôm nay. Chỉ cần thực hiện buổi tập tiếp theo thật có chủ đích.","exerciseIds":["squat","row","bird-dog"],"seconds":105}
+  ]
+}

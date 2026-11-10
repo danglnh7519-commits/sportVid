@@ -1,0 +1,68 @@
+name: Render workout video
+run-name: Video · ${{ inputs.topic_id || 'chủ đề theo lịch' }} · ${{ inputs.render_date || 'hôm nay' }}
+on:
+  workflow_dispatch:
+    inputs:
+      topic_id: {description: 'Mã chủ đề (bỏ trống để chọn theo lộ trình)', type: string, required: false}
+      render_date: {description: 'Ngày nội dung YYYY-MM-DD (giờ Việt Nam)', type: string, required: false}
+      duration_seconds: {description: 'Thời lượng mục tiêu 60–150 giây', type: string, required: false}
+      voice_provider: {description: 'Giọng đọc', type: choice, options: [auto, edge, azure], default: auto}
+      upload_drive: {description: 'Lưu Google Drive', type: choice, options: [auto, 'yes', 'no'], default: auto}
+  schedule:
+    - cron: '0 5 * * *'
+permissions:
+  contents: read
+concurrency:
+  group: sportvid-render
+  cancel-in-progress: false
+jobs:
+  render:
+    if: github.event_name != 'schedule' || vars.DAILY_RENDER_ENABLED != 'false'
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    env:
+      RENDER_TOPIC_ID: ${{ inputs.topic_id }}
+      RENDER_DATE: ${{ inputs.render_date }}
+      RENDER_SECONDS: ${{ inputs.duration_seconds }}
+      RENDER_VOICE_PROVIDER: ${{ inputs.voice_provider || 'auto' }}
+      AZURE_SPEECH_KEY: ${{ secrets.AZURE_SPEECH_KEY }}
+      AZURE_SPEECH_REGION: ${{ vars.AZURE_SPEECH_REGION || 'southeastasia' }}
+      AZURE_SPEECH_VOICE: vi-VN-NamMinhNeural
+      GOOGLE_DRIVE_API_KEY: ${{ secrets.GOOGLE_DRIVE_API_KEY }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: {node-version: '22', cache: npm}
+      - name: Cài thư viện
+        run: npm ci --no-audit --no-fund
+      - name: Khôi phục hình minh họa
+        uses: actions/cache@v4
+        with:
+          path: public/media
+          key: sportvid-media-v1-${{ hashFiles('content/exercises.json') }}
+      - name: Khôi phục câu đọc đã tạo
+        uses: actions/cache@v4
+        with:
+          path: public/audio
+          key: sportvid-voice-${{ hashFiles('content/coaching.json', 'config.json', 'lib/speech.mjs') }}-${{ github.run_id }}
+          restore-keys: sportvid-voice-${{ hashFiles('content/coaching.json', 'config.json', 'lib/speech.mjs') }}-
+      - name: Tải hình, tạo lời đọc và dựng video
+        id: video
+        run: node scripts/cloud-render.mjs
+      - name: Lưu kết quả vào Google Drive
+        env:
+          RENDER_DIR: ${{ steps.video.outputs.render_dir }}
+          DRIVE_UPLOAD_MODE: ${{ inputs.upload_drive || 'auto' }}
+          DRIVE_CLIENT_ID: ${{ secrets.DRIVE_CLIENT_ID }}
+          DRIVE_CLIENT_SECRET: ${{ secrets.DRIVE_CLIENT_SECRET }}
+          DRIVE_REFRESH_TOKEN: ${{ secrets.DRIVE_REFRESH_TOKEN }}
+          DRIVE_FOLDER_ID: ${{ vars.DRIVE_FOLDER_ID }}
+        run: node scripts/upload-drive.mjs
+      - name: Giữ bản tải về trong 3 ngày
+        if: always() && steps.video.outcome == 'success'
+        uses: actions/upload-artifact@v4
+        with:
+          name: sportvid-${{ steps.video.outputs.render_date }}-${{ github.run_id }}
+          path: ${{ steps.video.outputs.render_dir }}
+          retention-days: 3
+          if-no-files-found: error

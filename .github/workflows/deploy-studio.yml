@@ -1,0 +1,35 @@
+name: Deploy Studio
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: ['web/**', 'server/**', 'content/**', 'config.json', 'lib/planner.mjs', 'lib/coaching.mjs', 'scripts/build-dashboard.mjs', 'scripts/deploy-studio.mjs', 'package*.json', 'wrangler.jsonc', '.github/workflows/deploy-studio.yml']
+permissions:
+  contents: read
+concurrency:
+  group: sportvid-studio-deploy
+  cancel-in-progress: false
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    env:
+      CLOUDFLARE_API_TOKEN: ${{ secrets.CF_API_TOKEN }}
+      CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CF_ACCOUNT_ID }}
+      STUDIO_GITHUB_TOKEN: ${{ secrets.STUDIO_GITHUB_TOKEN }}
+      STUDIO_ADMIN_PASSWORD: ${{ secrets.STUDIO_ADMIN_PASSWORD }}
+      STUDIO_SESSION_SECRET: ${{ secrets.STUDIO_SESSION_SECRET }}
+      DRIVE_UPLOAD_ENABLED: ${{ vars.DRIVE_UPLOAD_ENABLED }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: {node-version: '22', cache: npm}
+      - run: npm ci --no-audit --no-fund
+      - name: Xây dựng giao diện và máy chủ
+        run: npm run web:build
+      - name: Triển khai Studio
+        if: env.CLOUDFLARE_API_TOKEN != '' && env.CLOUDFLARE_ACCOUNT_ID != ''
+        run: node scripts/deploy-studio.mjs
+      - name: Hướng dẫn kết nối triển khai
+        if: env.CLOUDFLARE_API_TOKEN == '' || env.CLOUDFLARE_ACCOUNT_ID == ''
+        run: echo 'Studio đã build thành công. Thiết lập GitHub Secrets theo DEPLOY.md, rồi chạy lại workflow để đưa giao diện lên mạng.' >> "$GITHUB_STEP_SUMMARY"

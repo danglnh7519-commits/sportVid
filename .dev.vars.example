@@ -1,0 +1,6 @@
+# Local development only. Copy to .dev.vars for wrangler dev, never commit the real file.
+ADMIN_PASSWORD=
+SESSION_SECRET=
+GITHUB_TOKEN=
+# Optional: show that upload was configured; actual Drive credentials stay in GitHub Secrets.
+DRIVE_UPLOAD_ENABLED=false

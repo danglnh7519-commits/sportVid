@@ -1,0 +1,8 @@
+{
+  "brand": "BODYFORGE", "tagline": "MẠNH HƠN MỖI NGÀY",
+  "timezone": "Asia/Ho_Chi_Minh", "dailyTime": "12:00",
+  "driveFolderId": "1K7QWBeciNuaF8GCub8OkhbhRy7czzcYr",
+  "fps": 30, "width": 1080, "height": 1920,
+  "voiceProvider": "auto", "voiceRate": "-3%", "voicePitch": "-4%", "musicVolume": 0.12,
+  "defaultPlan": "content/rotation.json"
+}

@@ -1,0 +1,7 @@
+{
+  "startDate":"2026-11-05",
+  "topics":[
+    {"id":"my-day-1","goal":"tang-co","title":"BUỔI 01\nXÂY NỀN TẢNG","hook":"Hôm nay tập trung vào chất lượng. Chọn mức tập phù hợp và tiến bộ từng chút.","exerciseIds":["squat","row","plank"],"seconds":100},
+    {"id":"my-day-2","goal":"build-body","title":"BUỔI 02\nKIỂM SOÁT CORE","hook":"Hãy dành buổi hôm nay cho khả năng giữ vững và kiểm soát thân người.","exerciseIds":["bird-dog","plank"],"seconds":90}
+  ]
+}

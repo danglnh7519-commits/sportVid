@@ -1,0 +1,600 @@
+{
+  "topicId": "squat-foundation",
+  "goal": "BUILD BODY",
+  "title": "SQUAT VỮNG\nNỀN TẢNG KHỎE",
+  "brand": "BODYFORGE",
+  "tagline": "MẠNH HƠN MỖI NGÀY",
+  "fps": 30,
+  "width": 1080,
+  "height": 1920,
+  "scenes": [
+    {
+      "kind": "hook",
+      "title": "SQUAT VỮNG\nNỀN TẢNG KHỎE",
+      "narration": "Muốn cơ thể khỏe hơn? Bắt đầu từ một động tác bạn có thể làm thật chắc.",
+      "seconds": 8,
+      "captions": [
+        {
+          "text": "Muốn cơ thể khỏe hơn?",
+          "from": 0,
+          "duration": 2.376
+        },
+        {
+          "text": "Bắt đầu từ một động tác bạn có thể làm thật chắc.",
+          "from": 2.556,
+          "duration": 3.48
+        }
+      ],
+      "voices": [
+        {
+          "src": "audio/9ade8cde0daecd8ccb76cd0c.wav",
+          "from": 0,
+          "duration": 2.376
+        },
+        {
+          "src": "audio/bc27b7e72837ea1ab66d368e.wav",
+          "from": 2.556,
+          "duration": 3.48
+        }
+      ],
+      "cueEvents": [],
+      "durationInFrames": 240,
+      "from": 0
+    },
+    {
+      "kind": "exercise",
+      "exercise": {
+        "name": "Bodyweight Squat",
+        "vi": "Squat với trọng lượng cơ thể",
+        "folderId": "1VN88H7sQg990ZP3TIyo45ibrO1YbEaI1",
+        "muscles": "ĐÙI • MÔNG",
+        "dose": "2–3 hiệp × 8–12 lần",
+        "cue": "Gối hướng theo mũi chân",
+        "tips": [
+          "Đặt hai bàn chân rộng vừa sức. Giữ bàn chân bám sàn và thân người ổn định.",
+          "Hạ hông có kiểm soát đến độ sâu bạn giữ được tư thế. Đầu gối hướng theo mũi chân.",
+          "Đẩy sàn để đứng lên và thở ra. Ưu tiên kỹ thuật trước khi tăng số lần hoặc thêm tạ."
+        ],
+        "mistake": "Tránh nhấc gót và để đầu gối đổ vào trong.",
+        "coaching": {
+          "benefitTitle": "ĐÙI & MÔNG KHỎE HƠN",
+          "benefit": "Squat rèn sức mạnh đùi và mông, đồng thời yêu cầu thân người giữ ổn định. Tập đều với độ khó phù hợp giúp xây nền tảng cho động tác đứng lên và ngồi xuống.",
+          "prepare": "Đứng vững, bàn chân bám sàn. Siết nhẹ bụng và giữ gối theo hướng mũi chân.",
+          "actions": [
+            {
+              "text": "Hạ xuống chậm, hít vào.",
+              "label": "HẠ XUỐNG • HÍT VÀO",
+              "holdSeconds": 3
+            },
+            {
+              "text": "Đẩy sàn, đứng lên, thở ra.",
+              "label": "ĐỨNG LÊN • THỞ RA",
+              "holdSeconds": 3
+            }
+          ],
+          "finish": "Rất tốt! Dừng khi mất tư thế. Chất lượng từng lần tập quan trọng hơn số lượng.",
+          "sources": [
+            "https://www.acefitness.org/resources/everyone/exercise-library/135/bodyweight-squat/"
+          ]
+        },
+        "id": "squat",
+        "images": [
+          "media/squat-1.png",
+          "media/squat-2.png",
+          "media/squat-3.png"
+        ],
+        "selectedFiles": [
+          "01 - Bodyweight Squat.png",
+          "02 - Bodyweight Squat.png",
+          "03 - Bodyweight Squat.png"
+        ],
+        "notice": "media/squat-NOTICE.txt",
+        "source": "https://drive.google.com/drive/folders/1VN88H7sQg990ZP3TIyo45ibrO1YbEaI1",
+        "author": "Bryl Lim",
+        "credit": "Bryl Lim • CC BY-SA 4.0",
+        "license": "CC BY-SA 4.0"
+      },
+      "title": "TÁC ĐỘNG & LỢI ÍCH",
+      "segments": [
+        {
+          "text": "Squat rèn sức mạnh đùi và mông, đồng thời yêu cầu thân người giữ ổn định. Tập đều với độ khó phù hợp giúp xây nền tảng cho động tác đứng lên và ngồi xuống.",
+          "kind": "benefit",
+          "label": "TÁC ĐỘNG & LỢI ÍCH"
+        }
+      ],
+      "narration": "Squat rèn sức mạnh đùi và mông, đồng thời yêu cầu thân người giữ ổn định. Tập đều với độ khó phù hợp giúp xây nền tảng cho động tác đứng lên và ngồi xuống.",
+      "seconds": 18.333333333333332,
+      "captions": [
+        {
+          "text": "Squat rèn sức mạnh đùi và mông, đồng thời yêu cầu thân người giữ ổn định.",
+          "from": 0,
+          "duration": 5.328,
+          "kind": "benefit"
+        },
+        {
+          "text": "Tập đều với độ khó phù hợp giúp xây nền tảng cho động tác đứng lên và ngồi xuống.",
+          "from": 5.508,
+          "duration": 5.184,
+          "kind": "benefit"
+        }
+      ],
+      "voices": [
+        {
+          "src": "audio/f669b6ec75dd7783ddf12bb5.wav",
+          "from": 0,
+          "duration": 5.328
+        },
+        {
+          "src": "audio/7f0172e79e57a933292034ed.wav",
+          "from": 5.508,
+          "duration": 5.184
+        }
+      ],
+      "cueEvents": [],
+      "durationInFrames": 550,
+      "from": 240
+    },
+    {
+      "kind": "exercise",
+      "exercise": {
+        "name": "Bodyweight Squat",
+        "vi": "Squat với trọng lượng cơ thể",
+        "folderId": "1VN88H7sQg990ZP3TIyo45ibrO1YbEaI1",
+        "muscles": "ĐÙI • MÔNG",
+        "dose": "2–3 hiệp × 8–12 lần",
+        "cue": "Gối hướng theo mũi chân",
+        "tips": [
+          "Đặt hai bàn chân rộng vừa sức. Giữ bàn chân bám sàn và thân người ổn định.",
+          "Hạ hông có kiểm soát đến độ sâu bạn giữ được tư thế. Đầu gối hướng theo mũi chân.",
+          "Đẩy sàn để đứng lên và thở ra. Ưu tiên kỹ thuật trước khi tăng số lần hoặc thêm tạ."
+        ],
+        "mistake": "Tránh nhấc gót và để đầu gối đổ vào trong.",
+        "coaching": {
+          "benefitTitle": "ĐÙI & MÔNG KHỎE HƠN",
+          "benefit": "Squat rèn sức mạnh đùi và mông, đồng thời yêu cầu thân người giữ ổn định. Tập đều với độ khó phù hợp giúp xây nền tảng cho động tác đứng lên và ngồi xuống.",
+          "prepare": "Đứng vững, bàn chân bám sàn. Siết nhẹ bụng và giữ gối theo hướng mũi chân.",
+          "actions": [
+            {
+              "text": "Hạ xuống chậm, hít vào.",
+              "label": "HẠ XUỐNG • HÍT VÀO",
+              "holdSeconds": 3
+            },
+            {
+              "text": "Đẩy sàn, đứng lên, thở ra.",
+              "label": "ĐỨNG LÊN • THỞ RA",
+              "holdSeconds": 3
+            }
+          ],
+          "finish": "Rất tốt! Dừng khi mất tư thế. Chất lượng từng lần tập quan trọng hơn số lượng.",
+          "sources": [
+            "https://www.acefitness.org/resources/everyone/exercise-library/135/bodyweight-squat/"
+          ]
+        },
+        "id": "squat",
+        "images": [
+          "media/squat-1.png",
+          "media/squat-2.png",
+          "media/squat-3.png"
+        ],
+        "selectedFiles": [
+          "01 - Bodyweight Squat.png",
+          "02 - Bodyweight Squat.png",
+          "03 - Bodyweight Squat.png"
+        ],
+        "notice": "media/squat-NOTICE.txt",
+        "source": "https://drive.google.com/drive/folders/1VN88H7sQg990ZP3TIyo45ibrO1YbEaI1",
+        "author": "Bryl Lim",
+        "credit": "Bryl Lim • CC BY-SA 4.0",
+        "license": "CC BY-SA 4.0"
+      },
+      "title": "CHUẨN BỊ ĐÚNG TƯ THẾ",
+      "segments": [
+        {
+          "text": "Đứng vững, bàn chân bám sàn. Siết nhẹ bụng và giữ gối theo hướng mũi chân.",
+          "kind": "instruction",
+          "label": "CHUẨN BỊ"
+        }
+      ],
+      "narration": "Đứng vững, bàn chân bám sàn. Siết nhẹ bụng và giữ gối theo hướng mũi chân.",
+      "seconds": 18.333333333333332,
+      "captions": [
+        {
+          "text": "Đứng vững, bàn chân bám sàn.",
+          "from": 0,
+          "duration": 3.072,
+          "kind": "instruction"
+        },
+        {
+          "text": "Siết nhẹ bụng và giữ gối theo hướng mũi chân.",
+          "from": 3.2520000000000002,
+          "duration": 3.336,
+          "kind": "instruction"
+        }
+      ],
+      "voices": [
+        {
+          "src": "audio/db538f7d7cd04142f1cb2377.wav",
+          "from": 0,
+          "duration": 3.072
+        },
+        {
+          "src": "audio/12dde4bf4e2a35bf9fb49f3b.wav",
+          "from": 3.2520000000000002,
+          "duration": 3.336
+        }
+      ],
+      "cueEvents": [],
+      "durationInFrames": 550,
+      "from": 790
+    },
+    {
+      "kind": "exercise",
+      "exercise": {
+        "name": "Bodyweight Squat",
+        "vi": "Squat với trọng lượng cơ thể",
+        "folderId": "1VN88H7sQg990ZP3TIyo45ibrO1YbEaI1",
+        "muscles": "ĐÙI • MÔNG",
+        "dose": "2–3 hiệp × 8–12 lần",
+        "cue": "Gối hướng theo mũi chân",
+        "tips": [
+          "Đặt hai bàn chân rộng vừa sức. Giữ bàn chân bám sàn và thân người ổn định.",
+          "Hạ hông có kiểm soát đến độ sâu bạn giữ được tư thế. Đầu gối hướng theo mũi chân.",
+          "Đẩy sàn để đứng lên và thở ra. Ưu tiên kỹ thuật trước khi tăng số lần hoặc thêm tạ."
+        ],
+        "mistake": "Tránh nhấc gót và để đầu gối đổ vào trong.",
+        "coaching": {
+          "benefitTitle": "ĐÙI & MÔNG KHỎE HƠN",
+          "benefit": "Squat rèn sức mạnh đùi và mông, đồng thời yêu cầu thân người giữ ổn định. Tập đều với độ khó phù hợp giúp xây nền tảng cho động tác đứng lên và ngồi xuống.",
+          "prepare": "Đứng vững, bàn chân bám sàn. Siết nhẹ bụng và giữ gối theo hướng mũi chân.",
+          "actions": [
+            {
+              "text": "Hạ xuống chậm, hít vào.",
+              "label": "HẠ XUỐNG • HÍT VÀO",
+              "holdSeconds": 3
+            },
+            {
+              "text": "Đẩy sàn, đứng lên, thở ra.",
+              "label": "ĐỨNG LÊN • THỞ RA",
+              "holdSeconds": 3
+            }
+          ],
+          "finish": "Rất tốt! Dừng khi mất tư thế. Chất lượng từng lần tập quan trọng hơn số lượng.",
+          "sources": [
+            "https://www.acefitness.org/resources/everyone/exercise-library/135/bodyweight-squat/"
+          ]
+        },
+        "id": "squat",
+        "images": [
+          "media/squat-1.png",
+          "media/squat-2.png",
+          "media/squat-3.png"
+        ],
+        "selectedFiles": [
+          "01 - Bodyweight Squat.png",
+          "02 - Bodyweight Squat.png",
+          "03 - Bodyweight Squat.png"
+        ],
+        "notice": "media/squat-NOTICE.txt",
+        "source": "https://drive.google.com/drive/folders/1VN88H7sQg990ZP3TIyo45ibrO1YbEaI1",
+        "author": "Bryl Lim",
+        "credit": "Bryl Lim • CC BY-SA 4.0",
+        "license": "CC BY-SA 4.0"
+      },
+      "title": "CÙNG TẬP CÓ KIỂM SOÁT",
+      "segments": [
+        {
+          "text": "Ba.",
+          "kind": "command",
+          "label": "CHUẨN BỊ • 3",
+          "holdSeconds": 1.2
+        },
+        {
+          "text": "Hai.",
+          "kind": "command",
+          "label": "CHUẨN BỊ • 2",
+          "holdSeconds": 1.2
+        },
+        {
+          "text": "Một. Bắt đầu!",
+          "kind": "command",
+          "label": "BẮT ĐẦU",
+          "holdSeconds": 2
+        },
+        {
+          "text": "Hạ xuống chậm, hít vào.",
+          "kind": "command",
+          "label": "HẠ XUỐNG • HÍT VÀO",
+          "holdSeconds": 3,
+          "round": 1
+        },
+        {
+          "text": "Đẩy sàn, đứng lên, thở ra.",
+          "kind": "command",
+          "label": "ĐỨNG LÊN • THỞ RA",
+          "holdSeconds": 3,
+          "round": 1
+        },
+        {
+          "text": "Hạ xuống chậm, hít vào.",
+          "kind": "command",
+          "label": "HẠ XUỐNG • HÍT VÀO",
+          "holdSeconds": 3,
+          "round": 2
+        },
+        {
+          "text": "Đẩy sàn, đứng lên, thở ra.",
+          "kind": "command",
+          "label": "ĐỨNG LÊN • THỞ RA",
+          "holdSeconds": 3,
+          "round": 2
+        },
+        {
+          "text": "Rất tốt! Dừng khi mất tư thế. Chất lượng từng lần tập quan trọng hơn số lượng.",
+          "kind": "encouragement",
+          "label": "HOÀN THÀNH"
+        }
+      ],
+      "narration": "Ba. Hai. Một. Bắt đầu! Hạ xuống chậm, hít vào. Đẩy sàn, đứng lên, thở ra. Hạ xuống chậm, hít vào. Đẩy sàn, đứng lên, thở ra. Rất tốt! Dừng khi mất tư thế. Chất lượng từng lần tập quan trọng hơn số lượng.",
+      "seconds": 29.016000000000005,
+      "captions": [
+        {
+          "text": "Ba.",
+          "from": 0,
+          "duration": 1.872,
+          "kind": "command"
+        },
+        {
+          "text": "Hai.",
+          "from": 2.052,
+          "duration": 1.872,
+          "kind": "command"
+        },
+        {
+          "text": "Một. Bắt đầu!",
+          "from": 4.104,
+          "duration": 2.832,
+          "kind": "command"
+        },
+        {
+          "text": "Hạ xuống chậm, hít vào.",
+          "from": 7.116,
+          "duration": 3,
+          "kind": "command"
+        },
+        {
+          "text": "Đẩy sàn, đứng lên, thở ra.",
+          "from": 10.296,
+          "duration": 3.144,
+          "kind": "command"
+        },
+        {
+          "text": "Hạ xuống chậm, hít vào.",
+          "from": 13.62,
+          "duration": 3,
+          "kind": "command"
+        },
+        {
+          "text": "Đẩy sàn, đứng lên, thở ra.",
+          "from": 16.8,
+          "duration": 3.144,
+          "kind": "command"
+        },
+        {
+          "text": "Rất tốt!",
+          "from": 20.124000000000002,
+          "duration": 1.872,
+          "kind": "encouragement"
+        },
+        {
+          "text": "Dừng khi mất tư thế.",
+          "from": 22.176000000000002,
+          "duration": 2.304,
+          "kind": "encouragement"
+        },
+        {
+          "text": "Chất lượng từng lần tập quan trọng hơn số lượng.",
+          "from": 24.660000000000004,
+          "duration": 3.576,
+          "kind": "encouragement"
+        }
+      ],
+      "voices": [
+        {
+          "src": "audio/c091a41d8deb9185a1a9e0be.wav",
+          "from": 0,
+          "duration": 1.872
+        },
+        {
+          "src": "audio/2d04d6b267556cdb7fb1f5b4.wav",
+          "from": 2.052,
+          "duration": 1.872
+        },
+        {
+          "src": "audio/a9c13949d7ba01bf3e292566.wav",
+          "from": 4.104,
+          "duration": 2.832
+        },
+        {
+          "src": "audio/0db81b85f345ab8f517abe57.wav",
+          "from": 7.116,
+          "duration": 2.616
+        },
+        {
+          "src": "audio/d8c019d5047ad11b312ab8f8.wav",
+          "from": 10.296,
+          "duration": 3.144
+        },
+        {
+          "src": "audio/0db81b85f345ab8f517abe57.wav",
+          "from": 13.62,
+          "duration": 2.616
+        },
+        {
+          "src": "audio/d8c019d5047ad11b312ab8f8.wav",
+          "from": 16.8,
+          "duration": 3.144
+        },
+        {
+          "src": "audio/475bc5d48102c649f9576ae6.wav",
+          "from": 20.124000000000002,
+          "duration": 1.872
+        },
+        {
+          "src": "audio/327b5340a2855d9dbf33e841.wav",
+          "from": 22.176000000000002,
+          "duration": 2.304
+        },
+        {
+          "src": "audio/91bda2c0f60f0e76a08edf6f.wav",
+          "from": 24.660000000000004,
+          "duration": 3.576
+        }
+      ],
+      "cueEvents": [
+        {
+          "text": "Ba.",
+          "kind": "command",
+          "label": "CHUẨN BỊ • 3",
+          "holdSeconds": 1.2,
+          "from": 0,
+          "duration": 1.872
+        },
+        {
+          "text": "Hai.",
+          "kind": "command",
+          "label": "CHUẨN BỊ • 2",
+          "holdSeconds": 1.2,
+          "from": 2.052,
+          "duration": 1.872
+        },
+        {
+          "text": "Một. Bắt đầu!",
+          "kind": "command",
+          "label": "BẮT ĐẦU",
+          "holdSeconds": 2,
+          "from": 4.104,
+          "duration": 2.832
+        },
+        {
+          "text": "Hạ xuống chậm, hít vào.",
+          "kind": "command",
+          "label": "HẠ XUỐNG • HÍT VÀO",
+          "holdSeconds": 3,
+          "round": 1,
+          "from": 7.116,
+          "duration": 3
+        },
+        {
+          "text": "Đẩy sàn, đứng lên, thở ra.",
+          "kind": "command",
+          "label": "ĐỨNG LÊN • THỞ RA",
+          "holdSeconds": 3,
+          "round": 1,
+          "from": 10.296,
+          "duration": 3.144
+        },
+        {
+          "text": "Hạ xuống chậm, hít vào.",
+          "kind": "command",
+          "label": "HẠ XUỐNG • HÍT VÀO",
+          "holdSeconds": 3,
+          "round": 2,
+          "from": 13.62,
+          "duration": 3
+        },
+        {
+          "text": "Đẩy sàn, đứng lên, thở ra.",
+          "kind": "command",
+          "label": "ĐỨNG LÊN • THỞ RA",
+          "holdSeconds": 3,
+          "round": 2,
+          "from": 16.8,
+          "duration": 3.144
+        }
+      ],
+      "durationInFrames": 871,
+      "from": 1340
+    },
+    {
+      "kind": "principle",
+      "title": "TIẾN BỘ CÓ KẾ HOẠCH",
+      "narration": "Xây nền tảng với kỹ thuật vững và lịch tập phù hợp. Tập các nhóm cơ chính trong tuần và dành thời gian hồi phục.",
+      "seconds": 15,
+      "captions": [
+        {
+          "text": "Xây nền tảng với kỹ thuật vững và lịch tập phù hợp.",
+          "from": 0,
+          "duration": 3.528
+        },
+        {
+          "text": "Tập các nhóm cơ chính trong tuần và dành thời gian hồi phục.",
+          "from": 3.708,
+          "duration": 3.888
+        }
+      ],
+      "voices": [
+        {
+          "src": "audio/ea78b5f44a8ca8baf965a513.wav",
+          "from": 0,
+          "duration": 3.528
+        },
+        {
+          "src": "audio/c64b47946c734433455a89e7.wav",
+          "from": 3.708,
+          "duration": 3.888
+        }
+      ],
+      "cueEvents": [],
+      "durationInFrames": 450,
+      "from": 2211
+    },
+    {
+      "kind": "outro",
+      "title": "LƯU LẠI.\nTẬP THẬT CHẮC.",
+      "narration": "Khởi động trước khi tập. Dừng lại nếu thấy đau bất thường. Lưu video để xem lại và chia sẻ mục tiêu tập luyện của bạn.",
+      "seconds": 12,
+      "captions": [
+        {
+          "text": "Khởi động trước khi tập.",
+          "from": 0,
+          "duration": 2.232
+        },
+        {
+          "text": "Dừng lại nếu thấy đau bất thường.",
+          "from": 2.4120000000000004,
+          "duration": 2.688
+        },
+        {
+          "text": "Lưu video để xem lại và chia sẻ mục tiêu tập luyện của bạn.",
+          "from": 5.280000000000001,
+          "duration": 4.272
+        }
+      ],
+      "voices": [
+        {
+          "src": "audio/618b07f74cdcb9f66e9243d1.wav",
+          "from": 0,
+          "duration": 2.232
+        },
+        {
+          "src": "audio/345fcbef57c2662e792e4d67.wav",
+          "from": 2.4120000000000004,
+          "duration": 2.688
+        },
+        {
+          "src": "audio/b731415f226184014f8659c3.wav",
+          "from": 5.280000000000001,
+          "duration": 4.272
+        }
+      ],
+      "cueEvents": [],
+      "durationInFrames": 360,
+      "from": 2661
+    }
+  ],
+  "musicVolume": 0.12,
+  "demo": false,
+  "voiceProvider": "edge",
+  "durationInFrames": 3021,
+  "music": "audio/original-bed.wav"
+}
