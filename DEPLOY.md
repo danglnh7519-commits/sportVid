@@ -55,7 +55,7 @@ Nếu chỉ có OAuth Wrangler cũ thiếu quyền zone/route, cần đăng nh�
 
 ## 4. Lưu video vào Drive cá nhân
 
-Có thể test ngay mà chưa kết nối Drive: chọn **Chỉ bản tải về** hoặc **Drive nếu đã kết nối + bản tải về**. Kết quả MP4, ảnh bìa, caption, ghi công nằm trong GitHub Artifact, giữ **3 ngày**. Studio cho xem và tải MP4 trực tiếp từ Artifact qua API đã đăng nhập; trình duyệt không nhận token GitHub.
+Lịch hằng ngày dùng chế độ **Ưu tiên Google Drive**. Sau khi lưu thành công, mở thư mục đầu ra trong Drive để xem MP4, ảnh bìa, caption và ghi công. Nếu Drive chưa kết nối hoặc gặp lỗi, chế độ này giữ bản tải về trên GitHub trong **3 ngày**. Bạn cũng có thể chọn **Chỉ bản tải về** để chủ động lưu trên GitHub.
 
 Để lưu lâu dài vào My Drive:
 
@@ -66,7 +66,7 @@ Có thể test ngay mà chưa kết nối Drive: chọn **Chỉ bản tải về
 
 Không dùng service account để sở hữu file trên My Drive cá nhân: service account không có quota lưu trữ riêng. Dùng OAuth của người dùng hoặc Shared Drive Workspace đúng quyền.
 
-Chế độ `Bắt buộc lưu Google Drive` báo lỗi nếu thiếu kết nối hoặc upload thất bại; bản Artifact vẫn được giữ nếu MP4 đã tạo thành công. Chế độ tự động bỏ qua upload nếu chưa có đủ cấu hình. Lỗi upload một phần không xóa file đã upload hay bản tải về.
+Chế độ **Chỉ lưu Google Drive** báo lỗi nếu thiếu kết nối hoặc upload thất bại. Chế độ này không tạo bản tải về trên GitHub. Nếu chỉ một phần tệp được tải lên trước khi lỗi, các tệp đó vẫn nằm trong thư mục Drive.
 
 ## 5. Chạy trên máy để xem trước
 

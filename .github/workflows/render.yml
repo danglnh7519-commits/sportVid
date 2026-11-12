@@ -50,6 +50,7 @@ jobs:
         id: video
         run: node scripts/cloud-render.mjs
       - name: Lưu kết quả vào Google Drive
+        id: drive
         env:
           RENDER_DIR: ${{ steps.video.outputs.render_dir }}
           DRIVE_UPLOAD_MODE: ${{ inputs.upload_drive || 'auto' }}
@@ -59,7 +60,7 @@ jobs:
           DRIVE_FOLDER_ID: ${{ vars.DRIVE_FOLDER_ID }}
         run: node scripts/upload-drive.mjs
       - name: Giữ bản tải về trong 3 ngày
-        if: always() && steps.video.outcome == 'success'
+        if: always() && steps.video.outcome == 'success' && steps.drive.outputs.saved_to_drive != 'true' && inputs.upload_drive != 'yes'
         uses: actions/upload-artifact@v4
         with:
           name: sportvid-${{ steps.video.outputs.render_date }}-${{ github.run_id }}
