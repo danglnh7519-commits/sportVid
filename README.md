@@ -67,6 +67,8 @@ Sau khi đã xuất thử thành công với voice thật:
 powershell -ExecutionPolicy Bypass -File scripts/install-schedule.ps1
 ```
 
+Để lịch tự tải ảnh cần dùng và chép MP4 đã kiểm tra vào thư mục trên máy, truyền `-OutputDirectory "D:\Video"` với đường dẫn bạn chọn. MP4 được đặt tên `sportvid-YYYY-MM-DD.mp4`. Khi chuyển hẳn lịch sang Windows, đặt biến `DAILY_RENDER_ENABLED=false` trong GitHub Actions để tránh dựng hai lần mỗi ngày.
+
 Máy phải ở UTC+07 không DST, có điện, người dùng đăng nhập và có mạng khi dùng TTS. Task Scheduler sẽ đánh thức máy nếu hệ thống hỗ trợ, chạy khi bỏ lỡ giờ và thử lại tối đa 2 lần khi lỗi. Script chưa được tự cài trên máy trong quá trình bàn giao. Thay giờ trong config.json rồi chạy script lại để cập nhật trigger. Gỡ lịch: thêm `-Remove`.
 
 Máy chủ Linux có thể dùng cron `0 5 * * *` ở múi giờ UTC, đặt working directory dự án rồi gọi `/usr/bin/node scripts/cli.mjs daily`. Không thể bảo đảm chạy mỗi ngày nếu tắt máy. Không dùng Cloudflare Worker để render trình duyệt dài.
