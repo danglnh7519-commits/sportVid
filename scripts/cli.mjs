@@ -14,19 +14,29 @@ const config=await readJson(at('config.json')),exercises=await readJson(at('cont
 const coaching=await readJson(at('content/coaching.json'));
 for(const [id,exercise] of Object.entries(exercises))exercise.coaching=coaching[id];
 if(option('voice'))config.voiceProvider=option('voice');
+async function syncSelected(ids) {
+  const selected = ids.length ? Object.fromEntries(ids.map(id => {
+    if (!exercises[id]) throw Error('Không có động tác ' + id);
+    return [id, exercises[id]];
+  })) : exercises;
+  const manifest = at('public/media/manifest.json');
+  const old = await exists(manifest) ? await readJson(manifest) : {exercises:{}};
+  const data = await syncDrive(selected);
+  data.exercises = {...old.exercises, ...data.exercises};
+  await writeJson(manifest, data);
+  console.log('Đã đồng bộ:', Object.keys(data.exercises).join(', '));
+}
 try {
   if(command==='sync-drive') {
-    const ids=option('only','').split(',').filter(Boolean);
-    const selected=ids.length?Object.fromEntries(ids.map(id=>{if(!exercises[id])throw Error('Không có động tác '+id);return [id,exercises[id]];})):exercises;
-    const old=await exists(at('public/media/manifest.json'))?await readJson(at('public/media/manifest.json')):{exercises:{}};
-    const data=await syncDrive(selected);data.exercises={...old.exercises,...data.exercises};await writeJson(at('public/media/manifest.json'),data);
-    console.log('Đã đồng bộ:',Object.keys(data.exercises).join(', '));
+    await syncSelected(option('only','').split(',').filter(Boolean));
   }else if(['plan','daily','demo'].includes(command)) {
     const demo=command==='demo',silent=demo&&args.includes('--silent'),date=option('date',dateInZone(new Date(),config.timezone));dateNumber(date);
     const plan=await readJson(path.resolve(ROOT,option('plan',config.defaultPlan)));
     const topic=demo?{...plan.topics[0],seconds:90}:selectTopic(plan,date);
     const video=makeVideo(topic,exercises,config);video.demo=silent;
-    const job=at('renders',demo?'demo':date);await fs.mkdir(job,{recursive:true});
+    const manualId = option('manual-id');
+    if (manualId && (command !== 'daily' || !/^[0-9a-f-]{36}$/.test(manualId))) throw Error('Mã lượt dựng thủ công không hợp lệ');
+    const job=at('renders',manualId?`manual-${manualId}`:demo?'demo':date);await fs.mkdir(job,{recursive:true});
     if(command==='plan') {
       applyTiming(video);await writeJson(path.join(job,'plan.json'),video);
       const script=video.scenes.flatMap((s,i)=>narrationUnits(s).map((unit,j)=>({file:`scene-${i+1}-${j+1}.wav`,...unit})));
@@ -40,6 +50,7 @@ try {
       await handle.writeFile(JSON.stringify({pid:process.pid,job,startedAt:new Date().toISOString()}));
       // A failed forced rebuild must remain retryable instead of keeping a stale success marker.
       if(args.includes('--force'))await fs.rm(path.join(job,'complete.json'),{force:true});
+      if (args.includes('--sync-media')) await syncSelected([...new Set(topic.exerciseIds)]);
       if(!await exists(at('public/media/manifest.json')))throw Error('Chạy npm run sync-drive trước để tải hình từ Drive');
       const media=await readJson(at('public/media/manifest.json'));
       for(const scene of video.scenes)if(scene.exercise) {

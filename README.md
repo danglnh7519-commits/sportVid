@@ -61,6 +61,8 @@ Muốn lịch chạy tự động đọc lộ trình đó, đổi `defaultPlan` 
 
 ## Lịch tự động 12:00
 
+Trên Windows, đặt `SportVid.exe` cạnh `config.json` để chọn chủ đề và dựng ngay. Ứng dụng gọi Node.js 22 đã cài trên máy và lưu MP4 trong `VidFinal` cạnh file EXE. Lượt thủ công có tên riêng, còn lịch theo ngày giữ tên `sportvid-YYYY-MM-DD.mp4`.
+
 Sau khi đã xuất thử thành công với voice thật:
 
 ```powershell
